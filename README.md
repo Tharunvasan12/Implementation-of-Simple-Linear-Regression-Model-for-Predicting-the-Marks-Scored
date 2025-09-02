@@ -9,21 +9,21 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Algorithm
 1. Load dataset, separate features and labels, then split into training and testing sets.
-
 2. Train a Linear Regression model using the training data.
-
 3. Predict test data outputs and evaluate using MSE, MAE, and RMSE.
-
-4. Visualize training data with scatter plot and regression line. 
+4. Visualize training data with scatter plot and regression line.
 
 ## Program:
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: 
-RegisterNumber:  
-*/
 
-```py
+
+Developed by: THARUNISH VASAN T
+
+
+RegisterNumber:  212224240174
+```
+*/
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -51,11 +51,11 @@ plt.plot(x_train,regressor.predict(x_train),color="blue")
 plt.title("Hours vs Scores")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
-plt.show() 
+plt.show()
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+<img width="827" height="723" alt="image" src="https://github.com/user-attachments/assets/f3eb90ca-82b9-44cf-9d5c-650e4496f430" />
 
 
 ## Result:
